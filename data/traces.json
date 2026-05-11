@@ -1,0 +1,75 @@
+[
+  {
+    "id": "java-mid-stakeholders",
+    "persona": {
+      "facts": [
+        "hiring Java developer",
+        "mid-level around 4 years experience",
+        "needs stakeholder engagement"
+      ]
+    },
+    "user_messages": [
+      "Hiring a Java developer who works with stakeholders",
+      "Mid-level, around 4 years",
+      "no preference"
+    ],
+    "expected_relevant_ids": ["4084", "4034", "4032", "720", "244"]
+  },
+  {
+    "id": "frontend-team",
+    "persona": {
+      "facts": [
+        "building frontend team",
+        "wants HTML/CSS/JS plus React skills assessed"
+      ]
+    },
+    "user_messages": [
+      "I'm building a frontend team",
+      "Need to assess HTML/CSS/JS plus React skills",
+      "no preference on duration"
+    ],
+    "expected_relevant_ids": ["4080", "4081", "3989", "4177", "4222"]
+  },
+  {
+    "id": "data-science-grad",
+    "persona": {
+      "facts": [
+        "hiring entry-level data science",
+        "fresh graduate",
+        "want python and basic ML knowledge"
+      ]
+    },
+    "user_messages": [
+      "I want to hire entry-level data science graduates",
+      "Python and basic ML are most important",
+      "no preference"
+    ],
+    "expected_relevant_ids": ["4123", "4013", "3982", "4124"]
+  },
+  {
+    "id": "vague-clarify",
+    "persona": {
+      "facts": ["recruiter unsure"]
+    },
+    "user_messages": [
+      "I need an assessment",
+      "for a software engineering role at our company",
+      "mid-level java developer"
+    ],
+    "expected_relevant_ids": ["4084", "4034", "4032"]
+  },
+  {
+    "id": "personality-leadership",
+    "persona": {
+      "facts": [
+        "hiring senior leadership",
+        "personality assessment focus"
+      ]
+    },
+    "user_messages": [
+      "Need a personality test for a senior leadership role",
+      "Director or above"
+    ],
+    "expected_relevant_ids": ["720", "743"]
+  }
+]
