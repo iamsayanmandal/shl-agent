@@ -15,6 +15,8 @@ from __future__ import annotations
 
 import os
 import time
+from dotenv import load_dotenv
+load_dotenv()
 from contextlib import asynccontextmanager
 from pathlib import Path
 from typing import List, Optional, Literal
