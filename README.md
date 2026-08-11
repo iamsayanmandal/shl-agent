@@ -47,14 +47,14 @@ export GEMINI_API_KEY="your_key"
 uvicorn app.main:app --reload
 ```
 
-Open http://127.0.0.1:8000 for the chat UI.
+Open https://shl-agent-1x9d.onrender.com/ for the chat UI.
 
 ```bash
 # health
-curl http://127.0.0.1:8000/health
+curl https://shl-agent-1x9d.onrender.com//health
 
 # chat (the spec's example)
-curl -X POST http://127.0.0.1:8000/chat \
+curl -X POST https://shl-agent-1x9d.onrender.com//chat \
   -H 'Content-Type: application/json' \
   -d '{"messages":[
     {"role":"user","content":"Hiring a Java developer who works with stakeholders"},
