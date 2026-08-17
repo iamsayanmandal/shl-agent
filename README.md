@@ -2,7 +2,7 @@
 
 ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white) ![FastAPI](https://img.shields.io/badge/FastAPI-005571?style=for-the-badge&logo=fastapi) ![Gemini](https://img.shields.io/badge/Gemini_2.0-8E75B2?style=for-the-badge&logo=googlebard&logoColor=white)
 
-Take-home for SHL Labs AI Intern role. A FastAPI agent that takes a recruiter from a vague intent ("I'm hiring a Java developer") to a grounded shortlist of SHL Individual Test Solutions through multi-turn dialogue.
+A FastAPI agent that takes a recruiter from a vague intent ("I'm hiring a Python or JAVA developer") to a grounded shortlist of SHL Individual Test Solutions through multi-turn dialogue.
 
 ## Endpoints
 
